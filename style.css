@@ -1,0 +1,18 @@
+body {
+    background-color: #ccc;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 640px;
+    padding: 10px;
+    margin: auto;
+    display: grid;
+}
