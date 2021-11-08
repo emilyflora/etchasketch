@@ -48,12 +48,9 @@ p {
     display: grid;
     gap: 0;
     overflow: hidden;
-    grid-template-columns: repeat(32, 1fr);
     box-shadow: 5px 5px #000;
 }
 
 .cell {
     background-color: white;
-    width: 15.625px;
-    height: 15.625px;
 }
