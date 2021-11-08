@@ -15,8 +15,15 @@ div {
     display: grid;
     gap: 0;
     overflow: hidden;
+    grid-template-columns: repeat(32, 1fr);
 }
 
-/* .cell {
-    background-color: red;
-} */
+.cell {
+    background-color: white;
+    width: 12.5px;
+    height: 12.5px;
+}
+
+.hover-black {
+    background-color: black;
+}
