@@ -17,7 +17,7 @@ function createGrid(n) {
     // container.setAttribute("style", "grid-template-columns: repeat(" + n +", 1fr);");
 };
 
-// on hover, change .cell background color
+// on hover, change all .cell background color
 function changeColor() {
     let cellStyle = document.querySelectorAll(".cell");
     for (let i=0; i<cellStyle.length; i++) {
@@ -27,7 +27,18 @@ function changeColor() {
         });
     };
 };
-    
+
+//on button press, remove hover-black style from all .cell
+function restart () {
+    let restart = document.querySelector("#restart");
+    let allCells = document.querySelectorAll(".cell");
+    restart.addEventListener("click", function() {
+        for (let i=0; i<allCells.length; i++) {
+            let cell = allCells[i];
+            cell.classList.remove("hover-black");
+            };
+    });
+};
 
 //running functions
 let n = 32;
@@ -35,6 +46,7 @@ let n = 32;
 function runAll() {
     createGrid(n);
     changeColor();
+    restart();
 };
 
 runAll();

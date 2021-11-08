@@ -30,6 +30,10 @@ h1 {
     margin: 10px;
 }
 
+p {
+    font-size: 12px;
+}
+
 .container {
     max-width: 400px;
     margin: 20px auto;
