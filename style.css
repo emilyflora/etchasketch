@@ -4,18 +4,40 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+button {
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px #000;
+}
+
+button:active {
+    background-color: #eee;
+}
+
 div {
     background-color: whitesmoke;
-    border-radius: 2px;
+    /* border-radius: 2px; */
+}
+
+.header {
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 5px 5px #000;
+    padding: 20px 0px;
+}
+
+h1 {
+    margin: 10px;
 }
 
 .container {
     max-width: 400px;
-    margin: auto;
+    margin: 20px auto;
     display: grid;
     gap: 0;
     overflow: hidden;
     grid-template-columns: repeat(32, 1fr);
+    box-shadow: 5px 5px #000;
 }
 
 .cell {
