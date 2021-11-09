@@ -33,6 +33,21 @@ div {
     padding: 20px 0 0 0;
 }
 
+.dimensions {
+    padding: 0 20px 20px 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider {
+    -webkit-appearance: none;
+    width: 120px;
+    background: #000;
+    margin-right: 20px;
+}
+
 h1 {
     font-size: 30px;
     margin: 0px;

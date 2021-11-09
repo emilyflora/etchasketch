@@ -1,3 +1,14 @@
+//use slider to change grid size
+let slider = document.querySelector("#slider");
+let size = document.querySelector(".size");
+let size2 = document.querySelector(".size2");
+size.innerHTML = slider.value;
+size2.innerHTML = slider.value;
+slider.oninput = function () { 
+    size.innerHTML = this.value;
+    size2.innerHTML = this.value;
+};
+
 // on page load, generate grid of divs inside div .container
 function createGrid(n) {
     let num = n*n;
