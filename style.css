@@ -1,7 +1,7 @@
 body {
     background-color: #ccc;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -11,7 +11,7 @@ button {
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px 10px;
-    margin: 0 0 5px 0;
+    margin: 0 10px 5px 10px;
 }
 
 button:active {
@@ -41,7 +41,7 @@ div {
     justify-content: center;
 }
 
-#slider {
+/* #slider { */
     -webkit-appearance: none;
     width: 120px;
     background: #000;
@@ -51,6 +51,7 @@ div {
 h1 {
     font-size: 30px;
     margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
